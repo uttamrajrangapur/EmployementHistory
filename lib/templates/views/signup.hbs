@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Employee History Tracking App</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <form action="/employee/signup">
+            Employee Name:<br>
+            <input type="text" name="username">
+            <br>
+            Password:<br>
+            <input type="password" name="password">
+            Confirm Password:<br>
+            <input type="password" name="confirmPassword">
+
+            <br><br>
+            <input type="submit" value="SignUp">
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/client-side-js/signup.js"></script>
+</body>
+
+</html>

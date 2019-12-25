@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Employee History Tracking App</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <form action="/employee/employment-history">
+            <input type="submit" value="Get employment History" name="history">
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/client-side-js/get-employment-history.js"></script>
+</body>
+
+</html>

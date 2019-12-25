@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Employee History Tracking App</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <form action="/employee/login">
+            Employee Name:<br>
+            <input type="text" name="username">
+            <br>
+            Password:<br>
+            <input type="password" name="password">
+            <br><br>
+            <input type="submit" value="Login">
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+
+    </div>
+
+    {{>footer}}
+
+    <script src="/client-side-js/login.js"></script>
+</body>
+
+</html>
