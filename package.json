@@ -1,0 +1,35 @@
+{
+  "name": "employementhistory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uttamrajrangapur/EmployementHistory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uttamrajrangapur/EmployementHistory/issues"
+  },
+  "homepage": "https://github.com/uttamrajrangapur/EmployementHistory#readme",
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "pg-promise": "^10.3.1",
+    "uuid": "^3.3.3"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "hbs": "^4.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7"
+  }
+}
